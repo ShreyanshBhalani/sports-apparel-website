@@ -1,0 +1,92 @@
+.*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: radial-gradient(white,lightgrey) ;
+}
+
+#Header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.row1,.row2,.main,.row3,.bttn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+}
+.txtinput{
+	text-align: center;
+	padding:4px;
+	border-radius: 13px;
+	margin-left: 5px;
+}
+.btn{
+	border-radius: 10px;
+	padding:4px 10px;
+	cursor: pointer;
+
+}
+.brands{
+	margin-top: 10px;
+}
+.row-3{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.row-3 img{
+	cursor: pointer;
+	filter: grayscale(100%);
+}
+.row-3 img:hover{
+	filter: grayscale(0);
+}
+.footer{
+	border:2px solid black;
+	margin-top: 40px;
+	padding: 50px;
+	background: black;
+	
+
+}
+
+.containers{
+	display: flex;
+    align-items: center;
+}
+.container h4{
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+.row-4{margin-left: 80px;
+	display: flex;
+	align-items: center;
+	flex:wrap;
+	justify-content: space-between;
+	border:2px solid black;
+
+}
+.col-10 h3{
+
+   font-family: 'Roboto Slab', serif;
+   color:white;
+   
+
+}
+.col-11 p{
+     font-family: 'Roboto Slab', serif;
+     font-style: italic;
+     color: white;
+}
+hr{
+    font-weight: bold;
+}

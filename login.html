@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="Signup.css">
+  <script type="text/javascript" src="Signup.js"></script>
+  <title>Login Form Demo</title>
+</head>
+<body>
+
+  <nav>
+  <div class="logo"><h1 class="animate__animated animate__heartBeat animate__infinite">Fitness Club</h1></div>
+  <div class="menu">
+    <a href="file:///C:/Users/Shreyansh/Desktop/sports/index.html#">Home</a>
+    <a href="file:///C:/Users/Shreyansh/Desktop/WP1/index.html">MyAccount</a>
+    <a href="#">Cart</a>
+    <a href="file:///C:/Users/Shreyansh/Desktop/React/react.html">Contact</a>
+   </div>
+   </nav>
+   
+  <div class="login-wrapper">
+    <form action="" class="form">
+      <img src="img/avatar.png" alt="">
+      <h2>Sign-Up</h2>
+      <div class="input-group">
+        <input type="text" name="loginUser" id="loginUser" onblur="validateusername();"required>
+        <label for="loginUser">User Name</label>
+      </div>
+      <div class="input-group">
+        <input type="email" name="email" id="email" onblur="validatemail();"required>
+        <label for="email">Email</label>
+      </div>
+      <div class="input-group">
+        <input type="password" name="loginPassword" id="loginPassword" onblur="validatepassword();" required>
+        <label for="loginPassword">Password</label>
+      </div>
+      <div class="input-group">
+        <input type="password" name="confirmPassword" id="confirmPassword" onblur="validatecpassword();" required>
+        <label for="confirmPassword"> Confirm Password</label>
+      </div>
+
+      <input type="submit" onclick="mymessage();"value="Sign-in" class="submit-btn" id="submit">
+    </form>
+    </div>
+  </div>
+</body>
+</html>

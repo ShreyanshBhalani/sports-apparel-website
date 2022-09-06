@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SURVEY FORM</title>
+	<link rel="stylesheet" type="text/css" href="survey.css">
+</head>
+<body onload="mymessage()">
+
+	<div class="row1">
+<script src="app.js"></script>
+ <form name="regform" autocomplete="on" onsubmit="return validateForm()" >
+        <h1  id="Header"  onmouseover="style.color='#191970'"
+onmouseout="style.color='black'">SURVEY FORM</h1>
+         <p id="errormsg" class="field"></p>
+        <div class="main">
+            <span class="field">NAME : </span><input type="text" onchange="myFunction1()" class="txtinput" id="name" name="name" autofocus placeholder="Name" />
+        </div>
+        <div class="main">
+            <span class="field">EMAIL : </span><input type="email" class="txtinput" autocomplete="email" required
+                placeholder="abc@email.com" />
+        </div>
+        <div class="row1">
+            <span class="field">What's the best part of our online service  : </span>
+            <div class="row2">
+
+                <input type="radio" class="radbtn" name="feature" value="FastDelivery" id="FastDelivery" required /><label CLASS="field"
+                    for="FastDelivery"> Fast Delivery</label><br>
+                <input type="radio" class="radbtn" name="feature" value="Sportswears" id="Sportswears" required /><label CLASS="field"
+                    for="Sportswears">Trending Sportswears</label>
+                    <input type="radio" class="radbtn" name="feature" value="both" id="both" required /><label CLASS="field"
+                    for="both">Both</label>
+            </div>
+        </div>
+        <div class="main"> 
+            <span class="field">Which Clothing Brand do you prefer the most: </span><input type="textarea" name="brand" onfocus="myFunction2(this)" class="txtinput" required minlength="4"
+                placeholder="Enter all your fav brands to get special discount " />
+        </div>
+        <div class="main">
+            <span class="field">PHONE NUMBER : </span><input type="tel" name="phn" class="txtinput" autocomplete="tel" maxlength="10"
+                placeholder="Phone no." />
+        </div>
+        
+        <div class=row3>
+            <input type="checkbox" class="radbtn" value="PROMO" id="promo" checked required />
+            <label CLASS="field"
+                for="promo">Recieve NewsLetter From Us</label><br>
+           
+        </div>
+        <div class="bttn">
+        <input type="submit" class="btn" value="SUBMIT" onclick="myFunction()">
+        </div>
+        </div>
+        
+    </form>
+</div>
+<hr>
+<div class="brands">
+	<div class="small-container"></div>
+	<div class="row-3">
+		<div class="col-6">
+			<img src="images/logo1.jpg" height="100px" width="100">
+		</div>
+		<div class="col-7">
+			<img src="images/logo2.jpg" height="100px" width="100px">
+		</div>
+		<div class="col-8">
+			<img src="images/logo3.png" height="100px" width="100px">
+		</div>
+		<div class="col-9">
+			<img src="images/logo4.png" height="100px" width="100px">
+		</div>
+
+	</div>
+	
+</div>
+
+<div class="footer">
+      
+	<div class="containers">
+		<h4>&copy All rights reserved</h4>
+		<div class="row-4">
+			<div class="col-10">
+				<h3>Our App Coming Soon</h3>
+			</div>
+			<div class="col-11">
+				<p>Our Purpose Is to Sustainably make the pleasure and benefits of sports accessible to the many</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</body>
+
+</html>
